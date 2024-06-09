@@ -1,0 +1,78 @@
+.main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.card {
+  text-align: center;
+}
+
+.image {
+  width: 200px;
+}
+
+.name {
+  color: var(--primary-text);
+  font-size: 34px;
+  font-style: bold;
+}
+
+.about {
+  color: var(--text-color);
+  font-size: 12px;
+  margin-top: -2.5rem;
+}
+
+.about span {
+  color: var(--secondary-text);
+}
+
+.about span a {
+  color: var(--secondary--text);
+}
+
+.gp {
+  margin-top: 5rem;
+  color: var(--text-color);
+  font-size: 18px;
+}
+
+.gp a {
+  font-style: normal;
+  color: var(--text-color);
+  font-style: inherit;
+}
+
+@media only screen and (min-width: 768px) {
+  .image {
+    width: 326px;
+    height: 319px;
+  }
+
+  .name {
+    font-size: 60px;
+  }
+
+  .about {
+    font-size: 30px;
+    margin-top: -3.5rem;
+  }
+
+  .gp {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .card {
+    display: flex;
+    text-align: left;
+  }
+  .content {
+    margin-top: -2rem;
+    margin-left: 1rem;
+  }
+}
